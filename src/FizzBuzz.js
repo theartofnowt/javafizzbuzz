@@ -18,6 +18,12 @@ FizzBuzz.prototype._isDivisibleBy = function(divisor, number) {
   return number % divisor === 0;
 }
 
+var fizzBuzz = new FizzBuzz();
+
+for (var i = 1; i <= 100; i++) {
+  consol.log(fizzBuzz.say(i));  
+}
+
 // FizzBuzz.prototype._isDivisbleByFifteen = function(number, divisor) {
 //   return this._isDivisbleBy(number, 15);
 // }
